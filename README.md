@@ -1,10 +1,12 @@
-# poc-cond-bridge
+# PoC for Conditional Bridge code for OPI Project
 
 PoC for Conditional Bridge for OPI
 
 This PoC contains a bridge code functionality to check the ability to use build tags to enable features
 and capabilities in Go.  The code is based on a generic framework with redis support and allows enabling
 the inventory collection for the target environment.
+
+The Redis should be running on the target when this is executed.
 
 The build can be done using:
 
